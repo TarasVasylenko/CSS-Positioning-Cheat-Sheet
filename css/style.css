@@ -1,0 +1,56 @@
+html{
+	background: #fff;
+}
+body{
+	max-width: 1200px;
+	max-height: 1200px;
+	background-image: url(../img/light-wooden-background.png) /*rgb(231,200,167)*/;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.grid{
+	display: inline-block;
+	width: 83.333%;
+	height: 83.333%;
+	margin-top: 80px;
+	margin-bottom: 76px;
+	border: 20px solid rgb(87,37,0);
+  	font-size: 0;
+}
+
+.grid .grid__width-1-8--margin-right{
+	width: 12.5%;
+	height: 125px;
+	margin-right: 12.5%;
+	background: #000;
+	float: right;
+}
+
+.grid .grid__width-1-8--margin-left{
+	width: 12.5%;
+	height: 125px;
+	margin-left: 12.5%;
+	background: #000;
+	float: right;
+}
+
+.grid__cheat--white{
+	display: inline-block;
+	width: 80%;
+	height: 80%;
+	background: #fff;
+	margin-top: 10%;
+	border-radius: 50%;
+	border: 2px solid grey;
+}
+
+.grid__cheat--red{
+	display: inline-block;
+	width: 80%;
+	height: 80%;
+	background: red;
+	margin-top: 10%;
+	border-radius: 50%;
+	border: 2px solid grey;
+}
